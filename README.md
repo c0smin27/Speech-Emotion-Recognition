@@ -12,7 +12,7 @@ The model classifies speech audio clips into one of seven emotional categories: 
 
 ## How the Model Works
 
-1. **Dataset Preparation**: The [Toronto Emotional Speech Set (TESS)](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set) was extracted, organized, and split into 80% training and 20% testing sets.  
+1. **Dataset Preparation**: The [Toronto emotional speech set (TESS)](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess) was extracted, organized, and split into 80% training and 20% testing sets.  
 2. **Feature Extraction**: Raw audio signals were processed with the `Wav2Vec2Processor` to obtain normalized input features.  
 3. **Model Training**: A `Wav2Vec2ForSequenceClassification` model was fine-tuned for emotion classification using PyTorch.  
 4. **Evaluation**: Performance metrics such as accuracy, precision, recall, and F1-score were computed on the test set.  
