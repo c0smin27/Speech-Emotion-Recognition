@@ -7,8 +7,8 @@ The model classifies speech audio clips into one of seven emotional categories: 
 
 **❗❗ To view the full project, including code, metrics, and visualizations, download the following files and open them locally in any web browser: ❗❗**
 
-- `Model_Training.html` – complete model training notebook  
-- `Run_Model.html` – model testing and evaluation notebook
+- `Model_Training.html` - complete model training notebook  
+- `Run_Model.html` - model testing and evaluation notebook
 
 ## How the Model Works
 
@@ -40,9 +40,8 @@ Displayed in `Run_Model.html`, showing model confidence and class distribution a
 
 ## Project Files
 
-- `Model_Training.ipynb` – training and saving the model  
-- `Run_Model.ipynb` – model loading, testing, and result visualization  
-- `MelinteCosmin_SpeechEmotionRecognition.pptx` – project presentation  
+- `Model_Training.ipynb` - training and saving the model  
+- `Run_Model.ipynb` - model loading, testing, and result visualization  
 
 ## Disclaimer
 
